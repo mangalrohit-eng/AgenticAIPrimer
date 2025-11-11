@@ -8,7 +8,6 @@ import CurrentStateAnalysis from '@/components/CurrentStateAnalysis'
 import BuildJourney from '@/components/BuildJourney'
 import UseCases from '@/components/UseCases'
 import SuccessFactors from '@/components/SuccessFactors'
-import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -22,7 +21,6 @@ export default function Home() {
         <BuildJourney />
         <UseCases />
         <SuccessFactors />
-        <FAQ />
         <Footer />
       </main>
     </PasswordProtection>
