@@ -1,6 +1,5 @@
 'use client'
 
-import PasswordProtection from '@/components/PasswordProtection'
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
 import WhatIsAgenticAI from '@/components/WhatIsAgenticAI'
@@ -13,7 +12,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <PasswordProtection>
+    <>
       <Navbar />
       <main className="min-h-screen">
         <HeroSection />
@@ -25,7 +24,7 @@ export default function Home() {
         <SuccessFactors />
         <Footer />
       </main>
-    </PasswordProtection>
+    </>
   )
 }
 
