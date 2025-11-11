@@ -13,9 +13,9 @@ const Navbar = () => {
       className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center h-16">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center space-x-3">
             <Image
               src="/brand/accenture-logo.svg"
               alt="Accenture"
@@ -25,6 +25,16 @@ const Navbar = () => {
               className="h-8 w-auto"
             />
           </Link>
+
+          {/* Title */}
+          <div className="hidden md:block">
+            <h1 className="text-lg font-semibold text-gray-900">
+              Understanding <span className="gradient-text">Agentic AI</span>
+            </h1>
+          </div>
+
+          {/* Spacer for balance */}
+          <div className="w-[140px] hidden md:block"></div>
         </div>
       </div>
     </motion.nav>
