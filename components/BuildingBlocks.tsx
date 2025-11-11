@@ -83,7 +83,7 @@ const blocks: BuildingBlock[] = [
       { name: 'Text-Embedding', category: 'gcp' }
     ],
     owner: 'AI&D',
-    status: 'available'
+    status: 'unknown'
   },
   {
     icon: GitBranch,
@@ -243,7 +243,7 @@ const blocks: BuildingBlock[] = [
       { name: 'Custom UI', category: 'opensource' }
     ],
     owner: 'All Teams',
-    status: 'unknown'
+    status: 'available'
   }
 ]
 
@@ -401,7 +401,7 @@ const BuildingBlocks = () => {
             What Do We <span className="gradient-text">Need?</span>
           </h2>
           <p className="text-xs md:text-sm text-gray-600 max-w-3xl mx-auto mb-4">
-            9 essential components in a layered architecture • Filter by status • Hover for technical details
+            10 essential components in a layered architecture • 6 ready, 2 in progress, 2 to be determined • Hover for details
           </p>
 
           {/* Status Filter Toggle */}
@@ -416,7 +416,7 @@ const BuildingBlocks = () => {
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
-                All (9)
+                All (10)
               </button>
               <button
                 onClick={() => setStatusFilter('available')}

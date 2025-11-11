@@ -80,14 +80,14 @@ const CurrentStateAnalysis = () => {
           technologies: ['Cloud SQL', 'Pub/Sub', 'Firestore', 'Dataflow']
         },
         { 
-          name: 'Models', 
-          detail: 'Core intelligence engines for understanding and generation',
-          technologies: ['Vertex AI', 'Gemini Pro', 'PaLM 2', 'Text-Embedding']
-        },
-        { 
           name: 'Memory & Knowledge', 
           detail: 'Persistent information storage and retrieval',
           technologies: ['Vertex AI Vector Search', 'BigQuery', 'Firestore', 'Pinecone']
+        },
+        { 
+          name: 'Human-in-the-Loop', 
+          detail: 'Human oversight and intervention mechanisms',
+          technologies: ['Cloud Console', 'Vertex AI Pipelines', 'AppSheet', 'Custom UI']
         },
         { 
           name: 'Observability', 
@@ -109,6 +109,11 @@ const CurrentStateAnalysis = () => {
       borderColor: 'border-blue-300',
       items: [
         { 
+          name: 'Models', 
+          detail: 'Core intelligence engines for understanding and generation',
+          technologies: ['Vertex AI', 'Gemini Pro', 'PaLM 2', 'Text-Embedding']
+        },
+        { 
           name: 'Agent Framework', 
           detail: 'Decision-making backbone for autonomous operations',
           technologies: ['LangGraph', 'LangChain', 'Agent Builder', 'Vertex AI Agents']
@@ -122,11 +127,6 @@ const CurrentStateAnalysis = () => {
           name: 'Orchestration', 
           detail: 'Workflow coordination across systems',
           technologies: ['Cloud Composer', 'Workflows', 'Eventarc', 'Cloud Tasks']
-        },
-        { 
-          name: 'Human-in-the-Loop', 
-          detail: 'Human oversight and intervention mechanisms',
-          technologies: ['Cloud Console', 'Vertex AI Pipelines', 'AppSheet', 'Custom UI']
         }
       ]
     }
