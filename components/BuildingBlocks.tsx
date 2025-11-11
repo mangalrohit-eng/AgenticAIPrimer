@@ -40,7 +40,7 @@ interface BuildingBlock {
     name: string
     category: 'gcp' | 'opensource' | 'enterprise'
   }>
-  owner: 'GTS' | 'AI&D' | 'Network Systems' | 'All Teams'
+  owner: 'GTS' | 'AI&D' | 'Network Systems' | 'Business'
   status: 'available' | 'in-progress' | 'unknown'
 }
 
@@ -62,7 +62,7 @@ const blocks: BuildingBlock[] = [
       { name: 'Cloud Storage', category: 'gcp' },
       { name: 'Cloud CDN', category: 'gcp' }
     ],
-    owner: 'GTS',
+    owner: 'AI&D',
     status: 'available'
   },
   {
@@ -142,7 +142,7 @@ const blocks: BuildingBlock[] = [
       { name: 'Firestore', category: 'gcp' },
       { name: 'Dataflow', category: 'gcp' }
     ],
-    owner: 'Network Systems',
+    owner: 'AI&D',
     status: 'available'
   },
   {
@@ -202,7 +202,7 @@ const blocks: BuildingBlock[] = [
       { name: 'Security Command Center', category: 'gcp' },
       { name: 'Cloud Armor', category: 'gcp' }
     ],
-    owner: 'GTS',
+    owner: 'AI&D',
     status: 'available'
   },
   {
@@ -222,7 +222,7 @@ const blocks: BuildingBlock[] = [
       { name: 'Cloud Trace', category: 'gcp' },
       { name: 'Error Reporting', category: 'gcp' }
     ],
-    owner: 'GTS',
+    owner: 'AI&D',
     status: 'available'
   },
   {
@@ -242,7 +242,7 @@ const blocks: BuildingBlock[] = [
       { name: 'AppSheet', category: 'gcp' },
       { name: 'Custom UI', category: 'opensource' }
     ],
-    owner: 'All Teams',
+    owner: 'Business',
     status: 'unknown'
   }
 ]
@@ -267,7 +267,7 @@ const BlockCard = ({ block, isInView, delay }: BlockCardProps) => {
     'GTS': 'bg-blue-500 text-white',
     'AI&D': 'bg-purple-500 text-white',
     'Network Systems': 'bg-green-500 text-white',
-    'All Teams': 'bg-gray-500 text-white'
+    'Business': 'bg-orange-500 text-white'
   }
 
   // Status indicator
