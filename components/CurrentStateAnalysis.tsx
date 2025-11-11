@@ -20,6 +20,9 @@ interface ComponentCardProps {
 
 const ComponentCard = ({ item, index, categoryIndex }: ComponentCardProps) => {
   const [isHovered, setIsHovered] = useState(false)
+  
+  // Show tooltip on left for right column (categoryIndex 1), on right for left column (categoryIndex 0)
+  const tooltipOnLeft = categoryIndex === 1
 
   return (
     <div 
@@ -32,7 +35,9 @@ const ComponentCard = ({ item, index, categoryIndex }: ComponentCardProps) => {
 
       {/* Hover Tooltip */}
       {isHovered && (
-        <div className="absolute left-full top-0 ml-4 z-50 w-72 bg-white rounded-lg shadow-2xl border-2 border-ai-purple-500 p-4">
+        <div className={`absolute top-0 z-50 w-72 bg-white rounded-lg shadow-2xl border-2 border-ai-purple-500 p-4 ${
+          tooltipOnLeft ? 'right-full mr-4' : 'left-full ml-4'
+        }`}>
           <h4 className="font-bold text-sm text-gray-900 mb-3">{item.name}</h4>
           
           <div className="mb-3">
