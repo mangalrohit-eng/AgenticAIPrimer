@@ -34,8 +34,8 @@ const phases: Phase[] = [
   {
     number: 2,
     name: 'Intelligence',
-    status: 'current',
-    components: ['Models', 'Agent Framework', 'Memory & Knowledge'],
+    status: 'complete',
+    components: ['Models', 'Memory & Knowledge'],
     capabilities: [
       'Understand natural language questions',
       'Generate context-aware responses',
@@ -45,24 +45,13 @@ const phases: Phase[] = [
   },
   {
     number: 3,
-    name: 'Integration & Action',
+    name: 'Action',
     status: 'future',
-    components: ['API/Action Layer', 'Orchestration'],
+    components: ['Agent Framework', 'API/Action Layer', 'Orchestration', 'Human-in-the-Loop'],
     capabilities: [
       'Execute automated workflows',
       'Coordinate multi-step processes',
-      'Take actions in network systems'
-    ],
-    exampleUseCases: []
-  },
-  {
-    number: 4,
-    name: 'Production Ready',
-    status: 'future',
-    components: ['Safety & Compliance', 'Observability', 'Human-in-the-Loop'],
-    capabilities: [
-      'Safe autonomous operations',
-      'Full visibility and monitoring',
+      'Take actions in network systems',
       'Human oversight and control'
     ],
     exampleUseCases: []
@@ -106,17 +95,17 @@ const BuildJourney = () => {
               How Do We <span className="gradient-text">Get There?</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              4-phase incremental path from foundation to full Agentic AI capabilities
+              3-phase incremental path from foundation to full Agentic AI capabilities
             </p>
           </div>
 
           {/* Journey Steps */}
           <div className="relative">
             {/* Connection Line */}
-            <div className="hidden lg:block absolute top-24 left-0 right-0 h-1 bg-gradient-to-r from-green-500 via-blue-500 to-gray-300" style={{ top: '4rem' }}></div>
+            <div className="hidden lg:block absolute top-24 left-0 right-0 h-1 bg-gradient-to-r from-green-500 via-green-400 to-gray-300" style={{ top: '4rem' }}></div>
 
             {/* Phases */}
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {phases.map((phase, index) => (
                 <motion.div
                   key={phase.number}
