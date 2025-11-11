@@ -7,14 +7,7 @@ import {
   MessageSquare,
   Bot,
   Zap,
-  ShoppingCart,
-  Activity,
-  FileSearch,
-  BarChart3,
-  Search,
-  FileText,
-  HeadphonesIcon,
-  CheckCircle2
+  ShoppingCart
 } from 'lucide-react'
 
 const useCases = [
@@ -41,42 +34,6 @@ const useCases = [
     title: 'Supply Chain - yyy',
     description: 'Network equipment supply chain coordination and optimization (specific use case TBD)',
     color: 'from-orange-500 to-orange-600'
-  },
-  {
-    icon: Activity,
-    title: 'Network Assurance - zzz',
-    description: 'Proactive network health monitoring and automated issue resolution (specific use case TBD)',
-    color: 'from-cyan-500 to-cyan-600'
-  },
-  {
-    icon: FileSearch,
-    title: 'Network Documentation Intelligence',
-    description: 'Automated extraction and analysis of network diagrams, configurations, and technical documentation',
-    color: 'from-pink-500 to-pink-600'
-  },
-  {
-    icon: BarChart3,
-    title: 'Capacity Planning & Forecasting',
-    description: 'Predictive analytics for network capacity needs based on traffic patterns and growth trends',
-    color: 'from-indigo-500 to-indigo-600'
-  },
-  {
-    icon: Search,
-    title: 'Configuration Search & Validation',
-    description: 'Semantic search across network configurations with compliance checking and anomaly detection',
-    color: 'from-yellow-500 to-yellow-600'
-  },
-  {
-    icon: FileText,
-    title: 'Automated Incident Reports',
-    description: 'Generation of detailed incident reports with root cause analysis and resolution recommendations',
-    color: 'from-red-500 to-red-600'
-  },
-  {
-    icon: HeadphonesIcon,
-    title: 'NOC Assistant',
-    description: 'Voice and chat-enabled assistant for Network Operations Center staff with real-time system access',
-    color: 'from-teal-500 to-teal-600'
   }
 ]
 
@@ -98,7 +55,7 @@ const UseCases = () => {
               What Can We <span className="gradient-text">Do With It?</span>
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Once complete, this architecture will enable 10 high-value network operations use cases—from ticket triage to circuit decommissioning to supply chain optimization.
+              Once complete, this architecture will enable high-value network operations use cases—from ticket triage to circuit decommissioning to supply chain optimization.
             </p>
           </div>
 
