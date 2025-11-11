@@ -80,6 +80,11 @@ const CurrentStateAnalysis = () => {
           technologies: ['Cloud SQL', 'Pub/Sub', 'Firestore', 'Dataflow']
         },
         { 
+          name: 'Models', 
+          detail: 'Core intelligence engines for understanding and generation',
+          technologies: ['Vertex AI', 'Gemini Pro', 'PaLM 2', 'Text-Embedding']
+        },
+        { 
           name: 'Memory & Knowledge', 
           detail: 'Persistent information storage and retrieval',
           technologies: ['Vertex AI Vector Search', 'BigQuery', 'Firestore', 'Pinecone']
@@ -108,11 +113,6 @@ const CurrentStateAnalysis = () => {
       bgColor: 'from-blue-50 to-blue-100',
       borderColor: 'border-blue-300',
       items: [
-        { 
-          name: 'Models', 
-          detail: 'Core intelligence engines for understanding and generation',
-          technologies: ['Vertex AI', 'Gemini Pro', 'PaLM 2', 'Text-Embedding']
-        },
         { 
           name: 'Agent Framework', 
           detail: 'Decision-making backbone for autonomous operations',
@@ -146,7 +146,7 @@ const CurrentStateAnalysis = () => {
               Where Are We <span className="gradient-text">Today?</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              6 components ready, 2 in progress, 2 to be determined
+              7 components ready, 2 in progress, 1 to be determined
             </p>
           </div>
 
