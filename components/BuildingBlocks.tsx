@@ -401,7 +401,7 @@ const BuildingBlocks = () => {
             What Do We <span className="gradient-text">Need?</span>
           </h2>
           <p className="text-xs md:text-sm text-gray-600 max-w-3xl mx-auto mb-4">
-            10 essential components in a layered architecture • 6 ready, 2 in progress, 2 to be determined • Hover for details
+            10 essential components in a layered architecture • We have 6, We still need 4 • Hover for details
           </p>
 
           {/* Status Filter Toggle */}

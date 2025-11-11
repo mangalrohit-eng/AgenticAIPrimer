@@ -146,7 +146,7 @@ const CurrentStateAnalysis = () => {
               Where Are We <span className="gradient-text">Today?</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              6 components ready, 2 in progress, 2 to be determined
+              We have 6, We still need 4
             </p>
           </div>
 
