@@ -76,8 +76,8 @@ const SuccessFactors = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             How Do We <span className="gradient-text">Sustain It?</span>
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Best practices for maintaining reliable Agentic AI in network operations
+          <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            Long-term success requires robust governance, continuous improvement, and the ability to scale operations while maintaining safety and compliance standards.
           </p>
         </div>
 

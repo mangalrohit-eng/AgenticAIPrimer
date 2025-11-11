@@ -150,7 +150,10 @@ const CurrentStateAnalysis = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Where Are We <span className="gradient-text">Today?</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-2 leading-relaxed">
+              We have the foundational infrastructure and data capabilities in place. The remaining components—Agent Framework, APIs, Orchestration, and Human-in-the-Loop—are what we need to complete the architecture.
+            </p>
+            <p className="text-sm text-gray-600 max-w-3xl mx-auto">
               We have 6, We still need 4
             </p>
           </div>

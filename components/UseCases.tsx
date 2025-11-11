@@ -97,8 +97,8 @@ const UseCases = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               What Can We <span className="gradient-text">Do With It?</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              10 network operations use cases enabled by this architecture
+            <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              Once complete, this architecture will enable 10 high-value network operations use cases—from ticket triage to circuit decommissioning to supply chain optimization.
             </p>
           </div>
 

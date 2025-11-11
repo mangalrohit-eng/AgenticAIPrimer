@@ -94,8 +94,8 @@ const BuildJourney = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               How Do We <span className="gradient-text">Get There?</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              3-phase incremental path from foundation to full Agentic AI capabilities
+            <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              We're building incrementally across 3 phases: Foundation and Intelligence are complete, with Action capabilities coming next to enable full autonomous operations.
             </p>
           </div>
 

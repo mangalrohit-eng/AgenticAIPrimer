@@ -400,8 +400,11 @@ const BuildingBlocks = () => {
           <h2 className="text-2xl md:text-3xl font-bold mb-2">
             What Do We <span className="gradient-text">Need?</span>
           </h2>
+          <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-2 leading-relaxed">
+            Building Agentic AI requires 10 essential components organized in layers—from infrastructure at the foundation to human oversight at the top.
+          </p>
           <p className="text-xs md:text-sm text-gray-600 max-w-3xl mx-auto mb-4">
-            10 essential components in a layered architecture • We have 6, We still need 4 • Hover for details
+            We have 6, We still need 4 • Hover for details
           </p>
 
           {/* Status Filter Toggle */}
