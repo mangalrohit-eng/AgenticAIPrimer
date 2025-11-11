@@ -7,7 +7,8 @@ import {
   MessageSquare,
   Bot,
   Zap,
-  ShoppingCart
+  ShoppingCart,
+  CheckCircle2
 } from 'lucide-react'
 
 const useCases = [
