@@ -243,7 +243,7 @@ const blocks: BuildingBlock[] = [
       { name: 'Custom UI', category: 'opensource' }
     ],
     owner: 'All Teams',
-    status: 'available'
+    status: 'unknown'
   }
 ]
 
@@ -401,7 +401,7 @@ const BuildingBlocks = () => {
             What Do We <span className="gradient-text">Need?</span>
           </h2>
           <p className="text-xs md:text-sm text-gray-600 max-w-3xl mx-auto mb-4">
-            10 essential components in a layered architecture • 7 ready, 2 in progress, 1 to be determined • Hover for details
+            10 essential components in a layered architecture • 6 ready, 2 in progress, 2 to be determined • Hover for details
           </p>
 
           {/* Status Filter Toggle */}
@@ -427,7 +427,7 @@ const BuildingBlocks = () => {
                 }`}
               >
                 <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                What We Have (7)
+                What We Have (6)
               </button>
               <button
                 onClick={() => setStatusFilter('need')}
@@ -438,7 +438,7 @@ const BuildingBlocks = () => {
                 }`}
               >
                 <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                What We Need (3)
+                What We Need (4)
               </button>
             </div>
           </div>

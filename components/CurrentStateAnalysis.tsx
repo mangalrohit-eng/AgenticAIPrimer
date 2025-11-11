@@ -90,11 +90,6 @@ const CurrentStateAnalysis = () => {
           technologies: ['Vertex AI Vector Search', 'BigQuery', 'Firestore', 'Pinecone']
         },
         { 
-          name: 'Human-in-the-Loop', 
-          detail: 'Human oversight and intervention mechanisms',
-          technologies: ['Cloud Console', 'Vertex AI Pipelines', 'AppSheet', 'Custom UI']
-        },
-        { 
           name: 'Observability', 
           detail: 'Monitoring and insights into system behavior',
           technologies: ['Cloud Monitoring', 'Cloud Logging', 'Cloud Trace', 'Error Reporting']
@@ -127,6 +122,11 @@ const CurrentStateAnalysis = () => {
           name: 'Orchestration', 
           detail: 'Workflow coordination across systems',
           technologies: ['Cloud Composer', 'Workflows', 'Eventarc', 'Cloud Tasks']
+        },
+        { 
+          name: 'Human-in-the-Loop', 
+          detail: 'Human oversight and intervention mechanisms',
+          technologies: ['Cloud Console', 'Vertex AI Pipelines', 'AppSheet', 'Custom UI']
         }
       ]
     }
@@ -146,7 +146,7 @@ const CurrentStateAnalysis = () => {
               Where Are We <span className="gradient-text">Today?</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              7 components ready, 2 in progress, 1 to be determined
+              6 components ready, 2 in progress, 2 to be determined
             </p>
           </div>
 
