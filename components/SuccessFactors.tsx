@@ -65,12 +65,13 @@ const SuccessFactors = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
-    <section className="section-container bg-white" ref={ref}>
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8 }}
-      >
+    <section id="success-factors" className="py-16 bg-gradient-to-br from-gray-50 to-white" ref={ref}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
+        >
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -114,6 +115,7 @@ const SuccessFactors = () => {
         </div>
 
       </motion.div>
+      </div>
     </section>
   )
 }

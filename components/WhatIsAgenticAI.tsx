@@ -49,13 +49,14 @@ const WhatIsAgenticAI = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
-    <section id="what-is-agentic-ai" className="section-container bg-white" ref={ref}>
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8 }}
-        className="max-w-5xl mx-auto"
-      >
+    <section id="what-is-agentic-ai" className="py-16 bg-white" ref={ref}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
+          className="max-w-5xl mx-auto"
+        >
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -124,6 +125,7 @@ const WhatIsAgenticAI = () => {
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-ai-purple-200/20 rounded-full blur-3xl"></div>
         </motion.div>
       </motion.div>
+      </div>
     </section>
   )
 }

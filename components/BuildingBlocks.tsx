@@ -388,7 +388,7 @@ const BuildingBlocks = () => {
     })
 
   return (
-    <section className="py-6 bg-gradient-to-br from-gray-50 to-white" ref={ref}>
+    <section id="building-blocks" className="py-16 bg-gradient-to-br from-gray-50 to-white" ref={ref}>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -396,8 +396,8 @@ const BuildingBlocks = () => {
         className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"
       >
         {/* Section header */}
-        <div className="text-center mb-4">
-          <h2 className="text-2xl md:text-3xl font-bold mb-2">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
             What Do We <span className="gradient-text">Need?</span>
           </h2>
           <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto mb-2 leading-relaxed">
